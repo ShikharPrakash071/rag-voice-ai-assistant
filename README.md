@@ -1,152 +1,326 @@
-# 📄 RAG Voice Assistant (PDF Q&A System)
+# 🚀🎤 Voice-Enabled AI Document Assistant (RAG + Domain Mini GPT)
 
-This project is a Retrieval-Augmented Generation (RAG) based backend system that allows users to upload PDF documents, process them into structured knowledge, and prepare them for intelligent question answering using modern LLM pipelines.
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![License](https://img.shields.io/badge/license-Apache--2.0-blue)
+![Stars](https://img.shields.io/github/stars/ShikharPrakash071/rag-voice-assistant?style=social)
+![Forks](https://img.shields.io/github/forks/ShikharPrakash071/rag-voice-assistant?style=social)
+![Issues](https://img.shields.io/github/issues/ShikharPrakash071/rag-voice-assistant)
+![Last Commit](https://img.shields.io/github/last-commit/ShikharPrakash071/rag-voice-assistant)
+![Repo Size](https://img.shields.io/github/repo-size/ShikharPrakash071/rag-voice-assistant)
 
-The system is designed to be **fully GPU-free**, cost-efficient, and production-scalable, using local vector storage and open-source embeddings.
+<p align="center">
+  <b>🚀 Production-ready AI system | 🎤 Voice + 📄 Documents | 🧠 RAG + Mini GPT</b>
+</p>
 
----
+<p align="center">
+  <img src="https://via.placeholder.com/900x400?text=Project+Demo+GIF" alt="Demo"/>
+</p>
 
-## 🚀 Current Features (MVP - Phase 1 Complete)
-
-- 📂 Upload PDF documents via FastAPI
-- 📄 Parse PDFs into structured text (page-wise extraction)
-- ✂️ Intelligent text chunking using recursive splitting
-- 🧠 Generate embeddings using HuggingFace models
-- 🔍 Store embeddings in FAISS vector database
-- 💾 Persist vector database locally for reuse
-
----
-
-## 🏗️ Tech Stack (Updated & Accurate)
-
-### 🔹 Backend
-- **FastAPI** – High-performance async API framework
-
-### 🔹 RAG Pipeline
-- **LangChain (modular ecosystem)**  
-  - `langchain-core`
-  - `langchain-community`
-  - `langchain-text-splitters`
-  - `langchain-huggingface`
-
-### 🔹 Embeddings
-- **HuggingFace Sentence Transformers**
-  - Model: `all-MiniLM-L6-v2`
-  - Fully CPU-compatible (no GPU required)
-
-### 🔹 Vector Database
-- **FAISS (Facebook AI Similarity Search)**
-  - Local, fast, efficient similarity search
-  - No external DB dependency
-
-### 🔹 PDF Processing
-- **PyPDF (via LangChain loaders)**
+> 🎤 Talk to your documents
+> 📄 Turn PDFs into intelligent knowledge systems
+> 🧠 Ask anything — via voice or text
+> ⚡ Powered by RAG + Domain-Specific Mini GPT
 
 ---
 
-## 🧠 System Architecture (Current)
+## 🌍🧩 Problem Statement
 
+In today’s world, we deal with **huge amounts of unstructured data** like:
 
-User Upload → FastAPI → PDF Loader → Chunking → Embeddings → FAISS → Stored Locally
+📄 PDFs • 📑 Reports • 📚 Research Papers • ⚖️ Legal Docs
 
----
+But:
 
-## 🔄 Data Flow Explained
+* ❌ Searching is slow (Ctrl+F ≠ understanding)
+* ❌ No contextual answers
+* ❌ Chatbots don’t understand your documents
+* ❌ General AI ≠ domain expertise
 
-1. User uploads a PDF via API
-2. PDF is saved to local storage (`data/pdfs/`)
-3. PDF is parsed into page-level documents
-4. Documents are split into smaller chunks
-5. Each chunk is converted into vector embeddings
-6. Embeddings are stored in FAISS
-7. Vector database is saved locally for later retrieval
+👉 We need a system that can **understand, retrieve, and respond intelligently**.
 
 ---
 
-## ⚙️ Setup Instructions
+## 💡🚀 Solution
 
-### 1. Clone the repository
+Introducing a **next-gen AI system** that combines:
 
-```bash
-git clone https://github.com/YOUR_USERNAME/rag-voice-assistant.git
-cd rag-voice-assistant/backend
+### 🔹 🧠 RAG (Retrieval-Augmented Generation)
 
-### 2. Create virtual environment
-Bash
-python -m venv venv
-source venv/Scripts/activate  # Windows (Git Bash)
+→ Accurate answers from your documents
 
-### 3. Install dependencies
-Bash
+### 🔹 🧠⚡ Domain-Specific Mini GPT
+
+→ Ask questions **without uploading PDFs**
+
+### 🔹 🎤 Voice Interaction Layer
+
+→ Natural, real-time conversations
+
+---
+
+### 🎯 What You Can Do
+
+* 📄 Upload PDFs → 🔍 Instantly searchable
+* 🧠 Ask questions → 🎯 Context-aware answers
+* 🎤 Speak → 🔊 Get voice replies
+* ⚡ Ask domain questions → 📚 No upload needed
+
+👉 Basically:
+**ChatGPT for your documents + Focused AI for your domain** 🔥
+
+---
+
+## 🔥✨ Core Features
+
+### 🧠 1. AI Brain (RAG Pipeline)
+
+* 📄 Chunking → 🧠 Embeddings → 🔍 Retrieval → 🤖 LLM → 💬 Answer
+* 🎯 Context-aware, grounded responses
+* ❌ Reduced hallucination
+
+---
+
+### 📄 2. PDF Ingestion Engine
+
+* 📥 Upload via API
+* 📄 Smart parsing (page-wise)
+* ✂️ Intelligent chunking
+* 🧠 Embedding generation
+* 💾 FAISS storage
+
+✔ Convert raw PDFs → intelligent systems
+
+---
+
+### 🔍 3. Smart Query Engine
+
+* 🔎 Semantic search (FAISS)
+* 📊 Top-k retrieval
+* 🧠 LLM reasoning
+* 💬 Accurate responses
+
+---
+
+### 🧠⚡ 4. Domain-Specific Mini GPT (⭐ Highlight)
+
+* 📚 Pre-loaded knowledge base
+* 🚫 No upload required
+* 🎯 Domain-restricted answers
+
+✔ Acts like **Mini ChatGPT (focused + accurate)**
+
+---
+
+### 🎤 5. Voice AI System
+
+* 🎙️ Speech-to-Text
+* 🧠 RAG processing
+* 🔊 Text-to-Speech
+
+✔ Full conversational loop
+
+---
+
+### 🔊 6. Audio Engine
+
+* 🎧 gTTS-based synthesis
+* 📁 Unique audio file generation
+* 🌐 API-based playback
+
+---
+
+### ⚡ 7. Performance Optimizations
+
+* 💤 Lazy loading
+* 🧠 LRU caching
+* ⚡ Fast startup & response
+
+---
+
+## 🏗️⚙️ System Architecture
+
+```id="w3y7a1"
+User (🎤 Voice / ⌨️ Text)
+        ↓
+🐳 Dockerized FastAPI Backend
+        ↓
+-------------------------------------------------
+| 🗄️ PostgreSQL (Users / Metadata)              |
+| 🧠 FAISS (Vectors: PDFs + Domain Knowledge)   |
+| 📁 Local Storage (PDFs + Audio)               |
+-------------------------------------------------
+        ↓
+⚡ Groq LLM (Inference Engine)
+        ↓
+💬 Response (Text + 🔊 Audio)
+```
+
+---
+
+## 🔄🔁 End-to-End Flow
+
+### 📄 Upload Flow
+
+1. 📥 Upload PDF
+2. 💾 Store locally
+3. 📄 Parse text
+4. ✂️ Chunk
+5. 🧠 Generate embeddings
+6. 🔍 Store in FAISS
+7. 🗄️ Save metadata
+
+---
+
+### 🎤 Query Flow
+
+1. 🎤 Speak / ⌨️ Type
+2. 🔄 Convert to text
+3. 👤 Identify user
+4. 🔍 Retrieve context (FAISS / Domain DB)
+5. 🤖 LLM generates answer
+6. 🔊 Convert to audio
+7. 💬 Return response
+
+---
+
+## 🧱🛠️ Tech Stack
+
+| Layer        | Tech                 |
+| ------------ | -------------------- |
+| ⚙️ Backend   | FastAPI              |
+| 🗄️ Database | PostgreSQL           |
+| 🧠 Vector DB | FAISS                |
+| 🤖 LLM       | Groq API             |
+| 🧬 Embedding | HuggingFace (MiniLM) |
+| 🔊 Audio     | gTTS                 |
+| 📁 Storage   | Local                |
+| 🐳 Deploy    | Docker               |
+
+---
+
+## 🚀📈 Scalability Plan
+
+| Layer        | Upgrade 🔥 |
+| ------------ | ---------- |
+| 🧠 Vector DB | Pinecone   |
+| ⚡ Cache      | Redis      |
+| 📁 Storage   | AWS S3     |
+| 🚀 Deploy    | Kubernetes |
+
+---
+
+### 🧠 Why Upgrade?
+
+* ⚡ Pinecone → scalable vector search
+* ⚡ Redis → ultra-fast caching
+* ☁️ S3 → infinite storage
+* 🐳 K8s → production deployment
+
+---
+
+## ⚙️🧑‍💻 Setup
+
+```bash id="e6l2tx"
+git clone https://github.com/ShikharPrakash071/rag-voice-assistant.git
+cd rag-voice-assistant
+
 pip install -r requirements.txt
-
-### 4. Run the server
-Bash
 uvicorn app.main:app --reload
+```
 
-### 5. Open API docs
+---
 
-http://127.0.0.1:8000/docs
+## 🐳 Docker
 
-Example Output
-After uploading a PDF:
-JSON
-{
-  "message": "PDF uploaded & processed successfully",
-  "pages": 78,
-  "chunks": 86
-}
+```bash id="xq7b91"
+docker build -t ai-doc-assistant .
+docker run -p 8000:8000 ai-doc-assistant
+```
 
-⚠️ Important Notes
+---
 
-* Only valid PDFs are supported (not renamed .txt files)
+## 🔌 API
 
-* System is CPU-based and may take time for large documents
+* 📄 `POST /upload`
+* 🔍 `POST /query`
+* 🎤 `POST /voice-query`
+* 🔊 `GET /audio/{file}`
 
-* FAISS is local (not yet production distributed)
+---
 
-🎯 Upcoming Features (Next Phases)
+## 🎯💼 Use Cases
 
-🔥 Phase 2 (Next Step)
+* 📚 Study assistant
+* 🏢 Business intelligence
+* ⚖️ Legal analysis
+* 🧾 Research exploration
+* 🧠 Domain AI systems
 
-Question answering API
+---
 
-FAISS retrieval pipeline
+## 🧪 Testing
 
-Groq LLM integration
+```bash id="i5k1kz"
+curl -X POST http://localhost:8000/voice-query \
+--data-binary @input.wav \
+--output output.mp3
+```
 
-🎤 Phase 3
+---
 
-Voice input (Whisper)
+## 📌🗺️ Roadmap
 
-Audio output (TTS)
+### ✅ Phase 1 — Foundation
 
-🌐 Phase 4
+* PDF ingestion
+* FAISS storage
+* RAG pipeline
 
-React frontend (UI)
+---
 
-Chat interface
+### ✅ Phase 2 — Intelligence
 
-File management system
+* Query system
+* LLM integration
+* Mini GPT
 
-💡 Design Philosophy
+---
 
-No GPU dependency
+### ✅ Phase 3 — Voice AI
 
-No paid APIs
+* STT + TTS
+* Real-time interaction
 
-Modular architecture (production-ready)
+---
 
-Scalable from local → cloud
+### 🚧 Phase 4 — Product
 
-🤝 Contribution
+* Auth system
+* Multi-user support
+* Dashboard
 
-This project is built as a practical, industry-level RAG system. Contributions, improvements, and suggestions are welcome.
+---
 
-📌 Status
+### 🚀 Phase 5 — Scale
 
-✅ Phase 1 Complete: Data Ingestion + Vectorization
+* Docker optimization
+* Cloud deploy
+* Pinecone + Redis + S3
+* Streaming responses
 
-🚧 Phase 2 In Progress: Query + LLM Integration
+---
 
+## 🤝💬 Contributing
 
+PRs, ideas, improvements are welcome 🚀
+Let’s build something powerful together
+
+---
+
+## 📜 License
+
+Apache-2.0 License
+
+---
+
+🔥 Built with ambition, engineered for production — ready to scale.
