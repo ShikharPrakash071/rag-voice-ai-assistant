@@ -2,11 +2,11 @@
 
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-Apache--2.0-blue)
-![Stars](https://img.shields.io/github/stars/ShikharPrakash071/rag-voice-assistant?style=social)
-![Forks](https://img.shields.io/github/forks/ShikharPrakash071/rag-voice-assistant?style=social)
-![Issues](https://img.shields.io/github/issues/ShikharPrakash071/rag-voice-assistant)
-![Last Commit](https://img.shields.io/github/last-commit/ShikharPrakash071/rag-voice-assistant)
-![Repo Size](https://img.shields.io/github/repo-size/ShikharPrakash071/rag-voice-assistant)
+![Stars](https://img.shields.io/github/stars/ShikharPrakash071/rag-voice-ai-assistant?style=social)
+![Forks](https://img.shields.io/github/forks/ShikharPrakash071/rag-voice-ai-assistant?style=social)
+![Issues](https://img.shields.io/github/issues/ShikharPrakash071/rag-voice-ai-assistant)
+![Last Commit](https://img.shields.io/github/last-commit/ShikharPrakash071/rag-voice-ai-assistant)
+![Repo Size](https://img.shields.io/github/repo-size/ShikharPrakash071/rag-voice-ai-assistant)
 
 <p align="center">
   <b>🚀 Production-ready AI system | 🎤 Voice + 📄 Documents | 🧠 RAG + Mini GPT</b>
@@ -19,7 +19,7 @@
 
 ---
 
-## 🌍🧩 Problem Statement
+## 🧩 Problem Statement
 
 In today’s world, we deal with **huge amounts of unstructured data** like:
 
@@ -36,7 +36,7 @@ But:
 
 ---
 
-## 💡🚀 Solution
+## 💡 Solution
 
 Introducing a **next-gen AI system** that combines:
 
@@ -66,7 +66,7 @@ Introducing a **next-gen AI system** that combines:
 
 ---
 
-## 🔥✨ Core Features
+## ✨ Core Features
 
 ### 🧠 1. AI Brain (RAG Pipeline)
 
@@ -97,7 +97,7 @@ Introducing a **next-gen AI system** that combines:
 
 ---
 
-### 🧠⚡ 4. Domain-Specific Mini GPT (⭐ Highlight)
+### ⚡ 4. Domain-Specific Mini GPT (⭐ Highlight)
 
 * 📚 Pre-loaded knowledge base
 * 🚫 No upload required
@@ -133,7 +133,7 @@ Introducing a **next-gen AI system** that combines:
 
 ---
 
-## 🏗️⚙️ System Architecture
+## 🏗️ System Architecture
 
 ```id="w3y7a1"
 User (🎤 Voice / ⌨️ Text)
@@ -153,7 +153,7 @@ User (🎤 Voice / ⌨️ Text)
 
 ---
 
-## 🔄🔁 End-to-End Flow
+## 🔁 End-to-End Flow
 
 ### 📄 Upload Flow
 
@@ -179,7 +179,7 @@ User (🎤 Voice / ⌨️ Text)
 
 ---
 
-## 🧱🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 | Layer        | Tech                 |
 | ------------ | -------------------- |
@@ -194,7 +194,7 @@ User (🎤 Voice / ⌨️ Text)
 
 ---
 
-## 🚀📈 Scalability Plan
+## 📈 Scalability Plan
 
 | Layer        | Upgrade 🔥 |
 | ------------ | ---------- |
@@ -214,10 +214,10 @@ User (🎤 Voice / ⌨️ Text)
 
 ---
 
-## ⚙️🧑‍💻 Setup
+## ⚙️ Setup
 
 ```bash id="e6l2tx"
-git clone https://github.com/ShikharPrakash071/rag-voice-assistant.git
+git clone https://github.com/ShikharPrakash071/rag-voice-ai-assistant.git
 cd rag-voice-assistant
 
 pip install -r requirements.txt
@@ -244,7 +244,7 @@ docker run -p 8000:8000 ai-doc-assistant
 
 ---
 
-## 🎯💼 Use Cases
+## 🎯 Use Cases
 
 ### 📚 Education & Learning
 - Query textbooks, notes, and PDFs instantly  
@@ -467,7 +467,7 @@ curl -X POST http://localhost:8000/voice-query \
 
 ---
 
-## 📌🗺️ Roadmap
+## 📌 Roadmap
 
 ### ✅ Phase 1 — Foundation
 
@@ -509,7 +509,7 @@ curl -X POST http://localhost:8000/voice-query \
 
 ---
 
-## 🤝💬 Contributing
+## 🤝 Contributing
 
 PRs, ideas, improvements are welcome 🚀
 Let’s build something powerful together
