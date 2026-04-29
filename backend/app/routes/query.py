@@ -5,12 +5,14 @@ from app.services.rag_pipeline import build_rag
 
 router = APIRouter()
 
-# Initialize once
-retriever = get_retriever()
-llm = get_llm()
-rag_chain = build_rag(llm, retriever)
-
 @router.post("/query")
 def query(question: str):
+    # Lazy loading inside function
+    retriever = get_retriever()
+    llm = get_llm()
+
+    rag_chain = build_rag(llm, retriever)  # 👈 IMPORTANT (ye missing tha)
+
     response = rag_chain(question)
+
     return {"answer": response.content}
