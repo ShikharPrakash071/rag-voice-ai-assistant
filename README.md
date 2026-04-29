@@ -12,10 +12,6 @@
   <b>🚀 Production-ready AI system | 🎤 Voice + 📄 Documents | 🧠 RAG + Mini GPT</b>
 </p>
 
-<p align="center">
-  <img src="https://via.placeholder.com/900x400?text=Project+Demo+GIF" alt="Demo"/>
-</p>
-
 > 🎤 Talk to your documents
 > 📄 Turn PDFs into intelligent knowledge systems
 > 🧠 Ask anything — via voice or text
