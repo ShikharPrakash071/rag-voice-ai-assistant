@@ -1,1 +1,9 @@
 backend/.env
+__pycache__/
+*.pyc
+backend/audio/
+backend/data/vector_store/
+backend/data/pdfs/
+*.mp3
+*.wav
+.env
