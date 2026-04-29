@@ -427,13 +427,7 @@ This project is built with **production thinking**, not just as a demo.
 
 ---
 
-## 🧠 System Design Diagram
-
-<p align="center">
-  <img src="https://via.placeholder.com/900x400?text=System+Design+Diagram" alt="System Design"/>
-</p>
-
-### 🔍 Explanation
+## 🧠 System Design Explanation
 
 User (Voice / Text)
  ↓
