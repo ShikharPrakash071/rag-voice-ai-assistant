@@ -1,4 +1,4 @@
-# 🚀🎤 Voice-Enabled AI Document Assistant (RAG + Domain Mini GPT)
+# 🎤 Voice-Enabled AI Document Assistant (RAG + Domain Mini GPT)
 
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-Apache--2.0-blue)
@@ -44,7 +44,7 @@ Introducing a **next-gen AI system** that combines:
 
 → Accurate answers from your documents
 
-### 🔹 🧠⚡ Domain-Specific Mini GPT
+### 🔹 ⚡ Domain-Specific Mini GPT
 
 → Ask questions **without uploading PDFs**
 
