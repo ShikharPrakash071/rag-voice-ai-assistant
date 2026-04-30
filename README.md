@@ -218,7 +218,7 @@ User (🎤 Voice / ⌨️ Text)
 
 ```bash id="e6l2tx"
 git clone https://github.com/ShikharPrakash071/rag-voice-ai-assistant.git
-cd rag-voice-assistant
+cd rag-voice-ai-assistant
 
 pip install -r requirements.txt
 uvicorn app.main:app --reload
